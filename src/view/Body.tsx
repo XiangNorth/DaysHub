@@ -35,12 +35,7 @@ function Body() {
     },
   ];
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexWrap: "wrap",
-      }}
-    >
+    <Box sx={{ display: "flex", flexWrap: "wrap" }}>
       {holis.map((holi) => (
         <Cards
           title={holi.title}
